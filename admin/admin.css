@@ -39,6 +39,9 @@ ul li{
 ul li:hover{
     border-bottom: 2px solid wheat;
 }
+ul li:focus{
+    border-bottom: 2px solid wheat;
+}
 ul li a{
     text-decoration: none;
     font-size: 20px;
