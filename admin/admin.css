@@ -7,14 +7,19 @@
 body {
     background-color: aliceblue;
 }
-nav{
-    display: flex;
-}
 h2{
     display: inline-block;
     position: relative;
     bottom: 15px;
     right: 10px;
+}
+.welcome{
+    display: inline-block;
+    position: relative;
+    bottom: 15px;
+    left: 75%;
+    font-size: 30px;
+    font-weight: bold;
 }
 img{
     width: 50px;
@@ -22,6 +27,8 @@ img{
 .title{
     background-color: burlywood;
     padding: 10px;
+    padding-bottom: 4px;
+    padding-left: 25px;
 }
 .sidebar{
     width: 13%;
@@ -39,7 +46,7 @@ ul li{
 ul li:hover{
     border-bottom: 2px solid wheat;
 }
-ul li:focus{
+.current{
     border-bottom: 2px solid wheat;
 }
 ul li a{
