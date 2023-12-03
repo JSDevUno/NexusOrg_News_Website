@@ -43,7 +43,7 @@ ul li{
     margin-top: 20px;
     animation: .5s;
 }
-ul li:hover{
+ul li a:hover{
     border-bottom: 2px solid wheat;
 }
 .current{
@@ -53,7 +53,11 @@ ul li a{
     text-decoration: none;
     font-size: 20px;
 }
-
+.fa-solid{
+    width: 20px;
+    color: aliceblue;
+    margin-right: 10px;
+}
 #addpost{
     position: absolute;
     top: 50%;
@@ -62,6 +66,7 @@ ul li a{
     width: 70%;
     height: 70%;
     background-color: bisque;
+    box-shadow:10px 10px brown;
 }
 /*==MANAGEPOST==*/
 #managepost{
@@ -76,6 +81,7 @@ ul li a{
     padding: 50px;
     display: flex;
     justify-content: center;
+    box-shadow:10px 10px brown;
 }
 table, tr,  th, td{
     border-collapse: collapse;
