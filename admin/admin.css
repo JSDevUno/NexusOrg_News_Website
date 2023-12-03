@@ -17,7 +17,7 @@ h2{
     display: inline-block;
     position: relative;
     bottom: 15px;
-    left: 75%;
+    left: 70%;
     font-size: 30px;
     font-weight: bold;
 }
@@ -53,15 +53,7 @@ ul li a{
     text-decoration: none;
     font-size: 20px;
 }
-#managepost{
-    position: absolute;
-    top: 50%;
-    left: 56.5%;
-    transform: translate(-50%, -50%);
-    width: 70%;
-    height: 70%;
-    background-color: bisque;
-}
+
 #addpost{
     position: absolute;
     top: 50%;
@@ -70,4 +62,48 @@ ul li a{
     width: 70%;
     height: 70%;
     background-color: bisque;
+}
+/*==MANAGEPOST==*/
+#managepost{
+    position: absolute;
+    top: 54%;
+    left: 56.5%;
+    transform: translate(-50%, -50%);
+    width: 70%;
+    height: 70%;
+    background-color: bisque;
+    overflow: hidden;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+table, tr,  th, td{
+    border-collapse: collapse;
+    padding: 20px;
+    text-align: left;
+    color: black;
+    font-weight: bold;
+    border-bottom: 2px solid black;
+    padding-left: 150px;
+    width: 100px;
+    white-space: nowrap;
+    margin-top: 20px;
+}
+td:nth-child(2){
+    overflow-x: auto;
+    white-space: nowrap; 
+    overflow-x: auto; 
+    max-width: 150px; 
+}
+.tablecont{
+    overflow: auto;
+}
+.green{
+    color: green
+}
+.red{
+    color: red
+}
+.blue{
+    color: blue;
 }
