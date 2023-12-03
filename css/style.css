@@ -91,9 +91,8 @@ img {
 /*===== NAV BAR =====*/
 nav {
   position: sticky;
-  top: 5%;
   z-index: 2;
-  background-color: lightskyblue;
+  background-color: white;
 }
 nav .container {
   display: flex;
@@ -106,6 +105,14 @@ nav .container {
   align-items: center;
   gap: 0.5rem;
   margin:3px 0px;
+}
+.logo1 p{
+  display: flex;
+  margin-left: 10px ;
+  font-weight: bold;
+}
+.logo1 p span{
+  margin-left: 5px;
 }
 .logo1 h1,
 .logo1 h1 span {
@@ -120,24 +127,36 @@ nav .container {
 .logo1 span {
   color: var(--primary-color);
 }
-.options a {
-  text-decoration: none;
-  padding: 10px 15px;
-  font-size: 1.05rem;
-  font-weight: 400;
-  color: black;
-  letter-spacing: 1px;
-  float: left;
+.search{
+  padding: 10px;
+  padding-left: 50px;
   border-radius: 10px;
-  margin: 2px;
-  transition: .5s;
+  border: 1px solid black;
+  outline: none;
+  width: 300px;
 }
-.options a:hover {
-  background-color: white
+.fa-solid{
+  font-size: 25px;
+  position: relative;
+  top: 4px;
+  left: 40px;
 }
-.current {
-  background-color: var(--primary-color);
-  color: white !important;
+.search::placeholder{
+  position: absolute;
+  left: 40px;
+}
+.navbar2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+  border-top:2px solid black ;
+  border-bottom: 2px solid black;
+}
+ul li{
+  display: inline-block;
+  margin: 10px 100px;
+  
 }
 /* ===== SHOWCASE ===== */
 .showcase {
