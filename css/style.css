@@ -129,7 +129,7 @@ nav .container {
 }
 .search{
   padding: 10px;
-  padding-left: 50px;
+  padding-left: 40px;
   border-radius: 10px;
   border: 1px solid black;
   outline: none;
@@ -155,7 +155,7 @@ nav .container {
 }
 ul li{
   display: inline-block;
-  margin: 10px 100px;
+  margin: 10px 85px;
   
 }
 /* ===== SHOWCASE ===== */
