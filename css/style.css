@@ -28,30 +28,46 @@ h3 {
   margin: auto;
 }
 body {
-  background-color: rgb(46, 88, 143);
+  background-color: aliceblue;
 }
 img {
   width: 100%;
 }
+.latest-category,
 .sports-category,
 .entertainment-category,
-.technology-category {
+.technology-category,
+.education-category,
+.opinion-category,
+.literary-category {
   display: inline-block;
-  text-transform: uppercase;
+  text-transform: Uppercase;
   font-size: 0.7rem;
   padding: 2px 20px;
   border-radius: 50px;
   color: white;
   margin: 0.5rem 0rem;
 }
+.latest-category {
+  background-color: rgb(24, 146, 194);
+}
 .sports-category {
-  background-color: orange;
+  background-color: rgb(80, 163, 72);
 }
 .entertainment-category {
-  background-color: rgb(186, 98, 197);
+  background-color: rgb(240, 164, 24);
 }
 .technology-category {
+  background-color: rgb(14, 109, 168);
+}
+.education-category {
+  background-color:  rgb(219, 22, 32);
+}
+.opinion-category {
   background-color: rgb(0, 151, 245);
+}
+.literary-category {
+  background-color: rgb(7, 121, 16)
 }
 /* ====== Preloader ====== */
 .preloader {
@@ -228,6 +244,9 @@ ul li{
   color: var(--primary-color);
 }
 /* ===== ARTICLES ===== */
+.container1{
+  padding: 0px 20px;
+}
 .editor-h1 {
   font-size: 1.6rem;
   margin: 1rem 0rem;
@@ -250,15 +269,9 @@ ul li{
 .articles > a:last-child {
   grid-column: 2 / span 2;
 }
-.articles > a:nth-child(2) {
-  background-color: var(--dark-color);
-  color: white;
-}
-.articles > a:nth-child(6) {
-  background-color: var(--primary-color);
-  color: white;
-}
 .card {
+  border: 2px solid black;
+  border-radius: 10px;
   background-color: aliceblue;
   padding: 1rem;
   text-decoration: none;
@@ -266,10 +279,13 @@ ul li{
   transition: .5s;
 }
 .card:hover {
-  box-shadow: 3px 5px 10px rgb(199, 199, 199);
+  box-shadow: 3px 5px 10px navy;
   transform: translateY(-5px);
 }
 /* === FOOTER === */
+.container2{
+  padding: 0px 20px;
+}
 footer {
   background-color: var(--dark-color);
   color: white;
