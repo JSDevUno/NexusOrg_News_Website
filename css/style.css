@@ -238,7 +238,7 @@ ul li{
 }
 .social i {
   color: white;
-  transition: .5s;
+  transition: .3s;
 }
 .social i:hover {
   color: var(--primary-color);
@@ -246,6 +246,23 @@ ul li{
 /* ===== ARTICLES ===== */
 .container1{
   padding: 0px 20px;
+}
+.view{
+  text-decoration: none;
+  padding: 10px;
+  background-color: aqua;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+  position: absolute;
+  right: 23px;
+  top: 68.5%;
+  border: 2px solid black;
+  transition: .3s;
+}
+.view:hover{
+  background-color: antiquewhite;
+  transform: translateY(3px);
 }
 .editor-h1 {
   font-size: 1.6rem;
@@ -281,6 +298,9 @@ ul li{
 .card:hover {
   box-shadow: 3px 5px 10px navy;
   transform: translateY(-5px);
+}
+.article-page article{
+  border: 2px solid black;
 }
 /* === FOOTER === */
 .container2{
