@@ -34,6 +34,7 @@ img {
   width: 100%;
 }
 .latest-category,
+.top-category,
 .sports-category,
 .entertainment-category,
 .technology-category,
@@ -67,6 +68,9 @@ img {
   background-color: rgb(0, 151, 245);
 }
 .literary-category {
+  background-color: rgb(7, 121, 16)
+}
+.top-category{
   background-color: rgb(7, 121, 16)
 }
 /* ====== Preloader ====== */
@@ -171,7 +175,7 @@ nav .container {
 }
 ul li{
   display: inline-block;
-  margin: 10px 85px;
+  margin: 10px 70px;
   
 }
 /* ===== SHOWCASE ===== */
