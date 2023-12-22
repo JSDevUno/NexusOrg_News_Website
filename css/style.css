@@ -178,6 +178,18 @@ ul li{
   margin: 10px 70px;
   
 }
+ul li a{
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+  padding: 5px;
+  transition: .3s;
+  border-radius: 10px;
+}
+ul li a:hover{
+  color:white;
+  background-color: rgb(88, 88, 214);
+}
 /* ===== SHOWCASE ===== */
 .showcase {
   position: relative;
